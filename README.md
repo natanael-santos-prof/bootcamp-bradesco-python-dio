@@ -1,7 +1,4 @@
 # Bootcamp Bradesco - Criando Entidades com Python (DIO)
-![Status do Projetohttps://img.shields.io/badge/build-passing-brightgreen?style=for-the-badge
-
-Este repositório foi criado para armazenar os projetos...
 
 Este repositório foi criado para armazenar os projetos e desafios de código desenvolvidos durante o **Bootcamp Bradesco - Python** em parceria com a **DIO (Digital Innovation One)**.
 
@@ -18,10 +15,10 @@ O objetivo deste desafio foi construir um sistema simples em Python para mapear 
 *   **Manipulação de Strings:** Aplicação do método `.strip()` para limpar espaços em branco desnecessários nas entradas.
 
 ### 🚀 Como executar o projeto
-1. Certifique-se de ter o Python 3 instalado no computador.
+1. Certifique-se de ter o Python 3 instalado.
 2. Acesse a pasta `desafios-de-codigo/`.
 3. Execute o arquivo:
    ```bash
    python entendendo_operacoes_bancarias.py
    ```
-
+   
