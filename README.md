@@ -1,4 +1,7 @@
 # Bootcamp Bradesco - Criando Entidades com Python (DIO)
+![Status do Projeto](https://shields.io)
+
+Este repositório foi criado para armazenar os projetos...
 
 Este repositório foi criado para armazenar os projetos e desafios de código desenvolvidos durante o **Bootcamp Bradesco - Python** em parceria com a **DIO (Digital Innovation One)**.
 
