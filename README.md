@@ -13,15 +13,32 @@ Imagine que um novo funcionário entra no banco e precisa criar um relatório, m
 *   **O que o usuário digita:** `Relatorio de juros em planilha Excel`
 *   **O que o sistema responde:** `Calculo de juros sobre saldos usando colunas da planilha`
 
-### 🛠️ O que eu precisei aprender para construir isso?
+---
+
+## 📊 Do Exercício para o Mundo Real: Como funcionaria com uma Planilha de Verdade?
+
+Se quiséssemos levar este projeto para o dia a dia de uma agência bancária real, a inteligência do código que criei seria embutida para abrir arquivos de verdade. O processo funcionaria assim em apenas 3 passos:
+
+1. **Armazenamento:** Salvaríamos uma planilha real do Excel (ex: `clientes.csv`) com os saldos dos correntistas na mesma pasta do código.
+2. **Integração:** Usaríamos uma biblioteca do Python chamada `pandas` para ler o arquivo diretamente com o comando:
+   ```python
+   df = pd.read_csv("clientes.csv")
+   ```
+3. **Automação:** Assim que o usuário digitasse a tarefa no terminal, o Python abriria a planilha em milissegundos, calcularia os juros automaticamente linha por linha e exibiria a tabela atualizada na tela.
+
+---
+
+## 🛠️ O que eu precisei aprender para construir isso?
 Para criar essa automação, utilizei conceitos fundamentais de lógica:
 1.  **Entrada de Dados:** Fazer o programa ouvir e entender o que o usuário digita.
 2.  **Tomada de Decisão:** Criar regras para o programa analisar o texto e escolher a resposta certa.
-3.  **Organização:** Estruturar o código para que ele seja rápido e fácil de atualizar caso o banco adicione novas ferramentas no futuro.
+3.  **Organização de Código:** Estruturar as funções para que o sistema seja rápido e fácil de atualizar caso o banco adicione novas ferramentas no futuro.
 
 ---
 
 ## 🚀 Como testar no seu computador
 1. Abra a pasta `desafios-de-codigo/`.
 2. Execute o arquivo `entendendo_operacoes_bancarias.py`.
-3. 
+
+### 📸 Demonstração Prática no Terminal
+![Simulação do Sistema](desafios-de-codigo/NOME_DA_SUA_IMAGEM.jpg)
