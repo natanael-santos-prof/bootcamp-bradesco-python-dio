@@ -1,24 +1,27 @@
-# Bootcamp Bradesco - Criando Entidades com Python (DIO)
+# 🏦 Central de Desafios - Python para o Setor Bancário
 
-Este repositório foi criado para armazenar os projetos e desafios de código desenvolvidos durante o **Bootcamp Bradesco - Python** em parceria com a **DIO (Digital Innovation One)**.
+Este repositório reúne os projetos práticos que desenvolvi durante o **Bootcamp Bradesco na DIO**. O objetivo principal é aplicar a programação Python para resolver problemas reais que acontecem no dia a dia de um banco.
 
 ---
 
-## 🧠 Desafio 1: Entendendo Operações Bancárias com Python
+## 🧠 Desafio 1: Guia Inteligente de Ferramentas Bancárias
 
-### 📋 Descrição do Problema
-O objetivo deste desafio foi construir um sistema simples em Python para mapear descrições técnicas de ferramentas como Excel e SQL no contexto bancário. O programa recebe uma string com o nome de um uso comum e retorna a sua respectiva explicação lógica.
+### 📄 O que este projeto faz? (Resumo Simples)
+Imagine que um novo funcionário entra no banco e precisa criar um relatório, mas não sabe qual ferramenta usar. Este programa funciona como um **assistente virtual**: o usuário digita a tarefa que precisa fazer e o sistema responde na hora qual é a ferramenta correta (como Excel ou SQL) e o motivo.
 
-### 🛠️ Conceitos Praticados
-*   **Funções (`def`):** Estruturação de blocos de código reaproveitáveis.
-*   **Estruturas Condicionais:** Uso encadeado de `if`, `elif` e `else`.
-*   **Manipulação de Strings:** Aplicação do método `.strip()` para limpar espaços em branco desnecessários nas entradas.
+### 💡 Exemplo Prático (Como funciona)
+*   **O que o usuário digita:** `Relatorio de juros em planilha Excel`
+*   **O que o sistema responde:** `Calculo de juros sobre saldos usando colunas da planilha`
 
-### 🚀 Como executar o projeto
-1. Certifique-se de ter o Python 3 instalado.
-2. Acesse a pasta `desafios-de-codigo/`.
-3. Execute o arquivo:
-   ```bash
-   python entendendo_operacoes_bancarias.py
-   ```
-   
+### 🛠️ O que eu precisei aprender para construir isso?
+Para criar essa automação, utilizei conceitos fundamentais de lógica:
+1.  **Entrada de Dados:** Fazer o programa ouvir e entender o que o usuário digita.
+2.  **Tomada de Decisão:** Criar regras para o programa analisar o texto e escolher a resposta certa.
+3.  **Organização:** Estruturar o código para que ele seja rápido e fácil de atualizar caso o banco adicione novas ferramentas no futuro.
+
+---
+
+## 🚀 Como testar no seu computador
+1. Abra a pasta `desafios-de-codigo/`.
+2. Execute o arquivo `entendendo_operacoes_bancarias.py`.
+3. 
