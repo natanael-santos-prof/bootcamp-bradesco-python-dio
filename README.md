@@ -1,5 +1,5 @@
 # Bootcamp Bradesco - Criando Entidades com Python (DIO)
-![Status do Projeto](https://shields.io)
+![Status do Projeto (https://shields.io)https://share.google/jspXybupa7HaHgaDl
 
 Este repositório foi criado para armazenar os projetos...
 
